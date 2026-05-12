@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int a=1;
+    while(a<=5)
+    {
+        if(a%2==0)
+        {
+            printf("%d",0);
+        }
+        else
+        {
+            printf("%d",1);
+        }
+        a=a+1;
+    }
+}
